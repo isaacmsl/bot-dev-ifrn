@@ -1,0 +1,28 @@
+{
+  "name": "bot-dev-ifrn",
+  "version": "1.1.0",
+  "description": "[![Discord](https://img.shields.io/discord/761669041760501760?label=discord&style=plastic)](https://discord.com/invite/Qk23Txv)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "NODE_ENV=development DEBUG=* node test.js",
+    "dev": "NODE_ENV=development DEBUG=* node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacmsl/bot-dev-ifrn.git"
+  },
+  "author": "Isaac Lourenço <isaacmarlondasilvalourenco@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isaacmsl/bot-dev-ifrn/issues"
+  },
+  "homepage": "https://github.com/isaacmsl/bot-dev-ifrn#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  },
+  "devDependencies": {
+    "debug": "^4.2.0",
+    "dotenv": "^8.2.0"
+  }
+}
